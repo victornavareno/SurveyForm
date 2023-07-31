@@ -1,11 +1,10 @@
-
-*{
+* {
     align-content: center;
     font-family: sans-serif;
     color: aliceblue;
 }
 
-body{
+body {
     background-image: linear-gradient(to bottom, rgba(47, 15, 255, 0.516), rgba(95, 95, 95, 0.472)), url("images/zorandim180200044.jpg");
     background-size: 150% 100%;
     background-repeat: no-repeat;
@@ -13,6 +12,15 @@ body{
     background-attachment: fixed;
 }
 
-#survey-form{
-    background-color: rgba(30, 28, 92, 0.698);
+.container {
+    background-color: rgba(0, 0, 0, 0.482);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#survey-form {
+    background-color: rgba(30, 28, 92, 0.661);
 }
