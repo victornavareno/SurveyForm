@@ -12,14 +12,20 @@ body{
     padding: 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 0.2fr 0.1fr 6fr 0.8fr;
+
+    grid-template-areas: 
+    "mainTitle mainTitle mainTitle"
+    "description description sidebar"
+    "content content sidebar"
+    "blank footer footer";
     gap: 10px;
 }
 
 .mainTitle{
-    background-color: rgb(7, 132, 146);
+    background-color: rgb(35, 47, 78);
     border-radius: 40px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: xx-large;
 
     display: flex;
@@ -27,7 +33,7 @@ body{
     justify-content: center;  
     grid-column: span 2; 
     padding: 20px;
-
+    grid-area: mainTitle;
 }
 
 .description{
@@ -39,6 +45,7 @@ body{
     align-items: center;
 
     grid-column: span 2;
+    grid-area: description;
 }
 
 
@@ -51,6 +58,8 @@ body{
     display: flex;
     align-items: auto;
     justify-content: center;
+    grid-area: content;
+    padding-top: 10%;
 }
 
 
@@ -66,4 +75,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    grid-area: sidebar;
+}
+
+.footer{
+    color: white;
+    background-color: rgb(35, 47, 78);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    align-items: center;
+    grid-area: footer;
 }
