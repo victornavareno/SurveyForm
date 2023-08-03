@@ -68,8 +68,8 @@ body{
     color: rgb(230, 230, 230)
 }
 
-.content form::{
-
+.content form{
+    accent-color: rgb(255, 130, 5);
 }
 
 

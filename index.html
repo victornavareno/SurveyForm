@@ -14,7 +14,7 @@
         Thank you for taking the time to help us improve the platform
       </h2>
       <div class="content">
-        <form class="form">
+        <form>
           <!-- NAME FORM: -->
           <label for="name" id="name-label"> Name:</label>
           <input id="name" type="text" placeholder="Enter your name" required />
@@ -42,9 +42,15 @@
           <label>
             Would you recommend freeCodeCamp to a friend?
             <br />
-            <input type="radio" name="optionGroup" value="option1" />
-            <input type="radio" name="optionGroup" value="option1" />
-            <input type="radio" name="optionGroup" value="option1" />
+            <label for="option1"
+              >Yes! <input type="radio" name="optionGroup" value="option1"
+            /></label>
+            <label for="option2"
+              >NO <input type="radio" name="optionGroup" value="option1"
+            /></label>
+            <label for="option3"
+              >Maybe...<input type="radio" name="optionGroup" value="option1"
+            /></label>
           </label>
           <br />
           <!-- TEXT FORM: -->
