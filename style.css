@@ -142,8 +142,9 @@ a, backtoMain:visited{
     border-inline: none;
     border: none;
 }
+
 .sidebar{
-    background-color: rgb(35, 47, 78);
+    background-color: rgb(35, 47, 78);0
     border-radius: 10px;
     color: aliceblue;
     font-weight: bold;
