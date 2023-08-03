@@ -50,10 +50,11 @@ body{
 
 
 .content{
-    background-color: rgb(26, 35, 60);
+    background-color: rgb(79, 184, 233);
     grid-column: span 2;
     border-radius: 10px;
     color: aliceblue;
+    font-weight: bold;
 
     display: flex;
     align-items: auto;
@@ -62,6 +63,14 @@ body{
     padding-top: 10%;
 }
 
+
+.content label:hover{
+    color: rgb(230, 230, 230)
+}
+
+.content form::{
+
+}
 
 
 .sidebar{
