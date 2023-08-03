@@ -4,32 +4,66 @@
     font-family: sans-serif;
 }
 
-.mainTitle{
-    background-color: rgb(7, 132, 146);
-    border-radius: 10px;
-    color: aliceblue;
-    font-size: xx-large;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+body{
+    background-color:rgb(239, 239, 239);
 }
 
 .container{
     padding: 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
 }
 
-.content{
-    background-color: antiquewhite;
-    grid-column: span 2;
+.mainTitle{
+    background-color: rgb(7, 132, 146);
+    border-radius: 40px;
+    color: aliceblue;
+    font-size: xx-large;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    grid-column: span 2; 
+    padding: 20px;
+
 }
 
 .description{
-    font-size: large;
+    font-size: medium;
     font-weight: lighter;
     font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    grid-column: span 2;
+}
+
+
+.content{
+    background-color: rgb(26, 35, 60);
+    grid-column: span 2;
+    border-radius: 10px;
+    color: aliceblue;
+
+    display: flex;
+    align-items: auto;
+    justify-content: center;
+}
+
+
+
+.sidebar{
+    background-color: rgb(255, 130, 5);
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: xx-large;
+
+    /*USING FLEXBOX WITHIN ELEMENT IN THE GRID*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
