@@ -48,6 +48,34 @@ body{
     grid-area: description;
 }
 
+.contact{
+    background-color: rgb(23, 224, 174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: x-large;
+    color: aliceblue;
+    grid-column: span 2;
+}
+
+.container, container2{
+    grid-template-areas: 
+    "";
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+a, backtoMain:visited{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
 
 .content{
     background: linear-gradient(to bottom left, rgb(5, 255, 226), rgb(52, 240, 137));
@@ -62,6 +90,24 @@ body{
     grid-area: content;
     padding-top: 10%;
 }
+
+.imageDevs{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 60vh;
+    border-radius: 20px;
+    border-color: black;
+
+}
+
+.content2{
+    background-color: rgb(49, 63, 100);
+    color: #fff;
+    padding: 10%;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 .content form{
     accent-color: rgb(255, 130, 5);
@@ -97,7 +143,7 @@ body{
     border: none;
 }
 .sidebar{
-    background-color: rgb(255, 130, 5);
+    background-color: rgb(5, 255, 226);
     border-radius: 10px;
     color: aliceblue;
     font-weight: bold;
