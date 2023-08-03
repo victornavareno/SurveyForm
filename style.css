@@ -50,7 +50,7 @@ body{
 
 
 .content{
-    background-color: rgb(79, 184, 233);
+    background: linear-gradient(to bottom left, rgb(5, 255, 226), rgb(52, 240, 137));
     grid-column: span 2;
     border-radius: 10px;
     color: aliceblue;
@@ -63,16 +63,37 @@ body{
     padding-top: 10%;
 }
 
-
-.content label:hover{
-    color: rgb(230, 230, 230)
-}
-
 .content form{
     accent-color: rgb(255, 130, 5);
 }
 
 
+.inputBox{
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    color: white;
+    width: 120px;
+    text-decoration: none;
+    border: none;
+}
+
+#name{
+    width: 190px;
+}
+
+#email{
+    width: 190px;
+}
+
+#textform{
+    color: black;
+    width: 80%;
+}
+
+#textform:enabled{
+    border-inline: none;
+    border: none;
+}
 .sidebar{
     background-color: rgb(255, 130, 5);
     border-radius: 10px;
@@ -97,4 +118,36 @@ body{
     font-weight: bold;
     align-items: center;
     grid-area: footer;
+    text-decoration: none;
+}
+
+.footer:hover{
+    background-color: rgb(49, 63, 100);
+}
+
+/* Style submit button */
+.submit {
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(35, 47, 78);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown{
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 120px;
+    background-color: rgb(49, 63, 100);
+    border: 0;
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background-color: rgb(49, 63, 100);
 }

@@ -17,25 +17,19 @@
         <form>
           <!-- NAME FORM: -->
           <label for="name" id="name-label"> Name:</label>
-          <input id="name" type="text" placeholder="Enter your name" required />
+          <input class="inputBox" id="name" type="text" required />
           <br />
           <!-- EMAIL FORM: -->
           <label for="email" id="email-label"> Email:</label>
-          <input
-            id="email"
-            type="email"
-            placeholder="Enter your email"
-            required
-          />
+          <input class="inputBox" id="email" type="email" required />
           <br />
           <!-- NUMBER FORM: -->
           <label for="number" id="number-label"> Number:</label>
           <input
             type="number"
-            id="number"
+            class="inputBox"
             min="0"
             max="9999999"
-            placeholder="Enter your number"
             required
           />
           <br />
@@ -58,21 +52,27 @@
             What is your favourite feature of freeCodeCamp?
           </label>
           <br />
-          <textarea name="text" id="textform" cols="30" rows="10"></textarea>
+          <textarea
+            class="inputBox"
+            name="text"
+            id="textform"
+            cols="30"
+            rows="10"
+          ></textarea>
           <br />
           <br />
           <br />
-          <select name="dropdown" id="dropdown">
-            <option value="option1">Option1</option>
-            <option value="option2">Option2</option>
+          <select name="dropdown" class="dropdown">
+            <option value="option1">I am a student</option>
+            <option value="option2">I am a professional</option>
           </select>
           <br />
           <br />
-          <button id="submit" type="submit">SUBMIT</button>
+          <button class="submit" type="submit">SUBMIT</button>
         </form>
       </div>
       <div class="sidebar">SIDEBAR</div>
-      <div class="footer">CONTACT</div>
+      <a class="footer" href="page2.html">CONTACT</a>
     </div>
   </body>
 </html>
