@@ -152,11 +152,20 @@ a, backtoMain:visited{
 
     /*USING FLEXBOX WITHIN ELEMENT IN THE GRID*/
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     grid-area: sidebar;
 }
 
+.sidebar #fantasyButton{
+    color: #fff;
+    font-size: large;
+    height: 80px;
+    width: 140px;
+    background: linear-gradient(to bottom left, rgb(5, 255, 226), rgb(52, 240, 137));
+    border-radius: 10px;
+}
 .footer{
     color: white;
     background-color: rgb(35, 47, 78);
