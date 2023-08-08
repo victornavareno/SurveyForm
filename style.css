@@ -215,6 +215,21 @@ a, backtoMain:visited{
     background-color: rgb(49, 63, 100);
 }
 
+.projects-container{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#title-projects{
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(35, 47, 78);
+    text-align: center;
+    margin-top: 20px;
+    grid-column-start: 2;
+}
+
 /*MEDIA QUERIES*/
 
 /*900 px is a random number. Mobile devices? Google it bruh*/
