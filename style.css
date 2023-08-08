@@ -215,6 +215,37 @@ a, backtoMain:visited{
     background-color: rgb(49, 63, 100);
 }
 
+.projects-container{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 100px 1fr 2fr 400px;    
+}
+
+.content-projects{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-radius: 20px;
+    grid-row-start: 2;
+    background-color: rgb(0, 182, 164);
+}
+
+.list-projects{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(35, 47, 78);
+
+}
+
 /*MEDIA QUERIES*/
 
 /*900 px is a random number. Mobile devices? Google it bruh*/
