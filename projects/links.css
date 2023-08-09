@@ -31,7 +31,7 @@ main{
 
 .nom{
     color: white;
-    background-color: #333333;
+    background-color: #C4B35A;
     grid-column-start: 1;
     grid-column-end: 2;
     
@@ -64,7 +64,8 @@ main{
 }
 
 .diabetes{
-    background: rgb(69, 69, 69);
+    color: white;
+    background-color: #333333;
     grid-column-start: 1;
     grid-column-end: 3;
     
@@ -72,11 +73,41 @@ main{
     grid-row-end: 5;
 }
 
+.diabetes p{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
 .projects{
-    background: rgb(206, 81, 183);
+    color: white;
+    padding: 2em;
+    font-style: bold;
+    font-size: xx-large;
+    background: url('../images/orange.jpg');
+    background-size: cover;
     grid-column-start: 3;
     grid-column-end: 4;
     
     grid-row-start: 2;
     grid-row-end: 5;
+}
+
+.projects:hover{
+
+    transition: transform 0.3s ease-out;
+    transform: scale(1.1);
+}
+
+main:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+header{
+    background-color: #fcfcfc;
+    font-size: xx-large;
+    font-style: italic;
+    margin: 1em;
+
 }
