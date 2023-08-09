@@ -8,7 +8,7 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1.2fr 1.5fr;
-    grid-template-rows: 1fr 4fr 3fr 2fr;
+    grid-template-rows: 1fr 4fr 2fr 3fr;
     height: 92vh;
 }
 
@@ -21,7 +21,17 @@ main{
     grid-row-end: 3;
 }
 
+.main-content{
+    margin: 3em;
+}
+
+.main-content h1{
+    font-style: italic;
+}
+
 .nom{
+    color: white;
+    background-color: #333333;
     grid-column-start: 1;
     grid-column-end: 2;
     
@@ -29,14 +39,28 @@ main{
     grid-row-end: 4;
 }
 
+.nom p{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
 
 .yum{
-    background: ;
+    background-color: #181818;
     grid-column-start: 2;
     grid-column-end: 3;
     
     grid-row-start: 3;
     grid-row-end: 4;
+}
+
+.yum p{
+    color: white;
+    font-size: xx-large;
+
+    display: flex;
+    justify-content: center;
 }
 
 .diabetes{
