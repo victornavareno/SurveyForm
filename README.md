@@ -1,4 +1,4 @@
-# SURVEY-FORM
+# Survey Form
 
 **A simple Form webpage using HTML and CSS.**
 The goal of this project is to better understand how to setup the layout of a webpage using CSS Grid and Flexbox.
